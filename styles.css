@@ -1,11 +1,48 @@
-.yz-navbar {
-  color: #fff;
-  background-color: #36464e;
-  height: 10em;
+body {
+  background-color: #fafafa;
+  font-family: "Helvetica Neue";
+  padding-top: 100pt;
 }
 
-.yz-content {
-  background-color: #fafafa;
+.topbar {
+  color: #000;
+  background-color: #d4dce0;
+  height: 100pt;
+}
+
+.bottombar {
+  color: #fff;
+  background-color: #0a0f15;
+  height: 100pt;
+}
+
+.topbar .container {
+  padding-top: 32pt;
+  padding-bottom: 32pt;
+}
+
+.bottombar .container {
+  padding-top: 24pt;
+}
+
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.logo {
+  width: auto;
+  height: 24pt;
+}
+
+.link.active {
+  font-weight: bold;
+}
+
+.email {
+  margin-top: 15pt;
+  color: #216ef9;
 }
 
 /* vim: set ai sw=2: */
