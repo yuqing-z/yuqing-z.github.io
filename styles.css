@@ -1,13 +1,14 @@
 body {
   background-color: #fafafa;
   font-family: "Helvetica Neue";
-  padding-top: 100pt;
+  padding-top: 60pt;
+  padding-bottom: 100pt;
 }
 
 .topbar {
   color: #000;
   background-color: #d4dce0;
-  height: 100pt;
+  height: 60pt;
 }
 
 .bottombar {
@@ -17,7 +18,7 @@ body {
 }
 
 .topbar .container {
-  padding-top: 32pt;
+  padding-top: 18pt;
   padding-bottom: 32pt;
 }
 
@@ -40,8 +41,40 @@ body {
   font-weight: bold;
 }
 
+.intro {
+  color: gray;
+  font-size: 14pt;
+  margin-top: 24pt;
+}
+
+.intro hr {
+  width: 20%;
+}
+
+.works {
+  margin-top: 28pt;
+  margin-bottom: 24pt;
+}
+
+.works > .row > div {
+  padding-bottom: 6pt;
+}
+
+.works > .row > div.left {
+  padding-right: 3pt;
+}
+
+.works > .row > div.right {
+  padding-left: 3pt;
+}
+
+.featurette {
+  width: 100%;
+  height: 150pt;
+}
+
 .email {
-  margin-top: 15pt;
+  margin-top: 18pt;
   color: #216ef9;
 }
 
