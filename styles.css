@@ -71,6 +71,7 @@ body {
 .box {
   width: 400px;
   height: 225px;
+  position: relative;
 }
 
 .left .box {
@@ -80,6 +81,19 @@ body {
 .box img {
   width: 100%;
   height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1.0;
 }
 
 .email {
