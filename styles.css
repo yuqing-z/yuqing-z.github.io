@@ -26,6 +26,22 @@ body {
   padding-top: 24pt;
 }
 
+.topbar a {
+  color: #000;
+}
+
+.topbar a:hover {
+  color: #000;
+}
+
+.bottombar a {
+  color: #fff;
+}
+
+.bottombar a:hover {
+  color: #fff;
+}
+
 .vertical-center {
   display: inline-block;
   vertical-align: middle;
@@ -98,6 +114,13 @@ body {
 
 .email {
   margin-top: 18pt;
+}
+
+.email a {
+  color: #216ef9;
+}
+
+.email a:hover {
   color: #216ef9;
 }
 
