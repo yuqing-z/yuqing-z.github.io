@@ -28,18 +28,12 @@ body {
   padding-top: 24pt;
 }
 
-.topbar a {
-  color: #000;
-}
-
+.topbar a,
 .topbar a:hover {
   color: #000;
 }
 
-.bottombar a {
-  color: #fff;
-}
-
+.bottombar a,
 .bottombar a:hover {
   color: #fff;
 }
