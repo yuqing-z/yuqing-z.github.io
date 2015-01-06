@@ -121,4 +121,11 @@ body {
   color: #216ef9;
 }
 
+.avatar img {
+  width: 216px;
+  height: 216px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
 /* vim: set ai sw=2: */
