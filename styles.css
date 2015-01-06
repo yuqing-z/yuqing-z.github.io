@@ -1,13 +1,15 @@
 body {
-  background-color: #fafafa;
-  font-family: "Helvetica Neue";
+  background-color: #fff;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   padding-top: 60pt;
-  padding-bottom: 100pt;
+  /*padding-bottom: 100pt;*/
 }
 
 .topbar {
   color: #000;
-  background-color: #d4dce0;
+  background-color: #fafafa;
+  /*background-color: #d4dce0;*/
   height: 60pt;
 }
 
@@ -15,6 +17,7 @@ body {
   color: #fff;
   background-color: #0a0f15;
   height: 100pt;
+  margin-bottom: 0;
 }
 
 .topbar .container {
@@ -58,8 +61,9 @@ body {
 }
 
 .intro {
-  color: gray;
-  font-size: 14pt;
+  font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #666;
+  font-size: 16pt;
   margin-top: 24pt;
 }
 
