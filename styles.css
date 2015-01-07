@@ -112,6 +112,8 @@ body {
   height: 100%;
   background: none;
   opacity: 0;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
 }
 
 .overlay:hover {
