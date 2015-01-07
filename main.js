@@ -17,4 +17,16 @@ $(document).ready(function() {
       $(".topbar").fadeTo(100, 0.7);
     }
   });
+
+  var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+  $(".overlay").hover(function() {
+    $(this).addClass("animated fadeIn").one(animationEndEvents, function() {
+      $(this).removeClass("animated fadeIn");
+    });;
+  }, function() {
+    $(this).addClass("animated fadeOut").one(animationEndEvents, function() {
+      $(this).removeClass("animated fadeOut");
+    });;
+  });
+
 });
