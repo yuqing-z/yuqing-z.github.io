@@ -9,7 +9,7 @@ body {
 .topbar {
   color: #000;
   background-color: #fafafa;
-  height: 60pt;
+  height: 40pt;
 }
 
 .bottombar {
@@ -20,7 +20,7 @@ body {
 }
 
 .topbar .container {
-  padding-top: 18pt;
+  padding-top: 10pt;
   padding-bottom: 32pt;
 }
 
@@ -44,29 +44,38 @@ body {
   float: none;
 }
 
-.logo {
+.title {
   width: auto;
-  height: 24pt;
+  height: 20pt;
 }
 
 .link.active {
   font-weight: bold;
 }
 
+.content {
+  padding: 24pt 0;
+}
+
 .intro {
   font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #666;
   font-size: 16pt;
-  margin-top: 24pt;
 }
 
 .intro hr {
   width: 20%;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+}
+
+.logo {
+  max-width: 62px;
+  margin-bottom: 12pt;
 }
 
 .works {
-  margin-top: 28pt;
-  margin-bottom: 24pt;
+  margin-top: 30pt;
 }
 
 .works > .row > div {
