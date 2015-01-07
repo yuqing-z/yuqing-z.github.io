@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  padding-top: 60pt;
+  padding-top: 40pt;
   /*padding-bottom: 100pt;*/
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .content {
-  padding: 24pt 0;
+  padding: 44pt 0;
 }
 
 .intro {
@@ -137,6 +137,27 @@ body {
   height: 216px;
   display: inline-block;
   border-radius: 50%;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  max-width: 85%;
+}
+
+.description {
+  font-family: 'Roboto Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #2d2d2d;
+  font-size: 13pt;
+  padding-top: 30pt;
+  padding-bottom: 20pt;
+}
+
+.description h1 {
+  font-size: 26pt;
+  padding-bottom: 5pt;
 }
 
 /* vim: set ai sw=2: */
