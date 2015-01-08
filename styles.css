@@ -150,6 +150,11 @@ body {
   max-width: 100%;
 }
 
+.feature img.placeholder {
+  width: 100%;
+  height: 500px;
+}
+
 .project-nav {
   max-width: 85%;
   margin-left: auto;
