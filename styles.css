@@ -124,19 +124,37 @@ body {
   margin-top: 18pt;
 }
 
-.email a {
-  color: #216ef9;
-}
-
+.email a,
 .email a:hover {
   color: #216ef9;
 }
 
-.avatar img {
+.profile {
+  padding: 40pt 0;
+}
+
+.profile .avatar {
+  margin-bottom: 15pt;
+}
+
+.profile a,
+.profile a:hover {
+  font-family: 'Roboto Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
+  color: #216ef9;
+  font-size: 13pt;
+}
+
+.avatar {
   width: 216px;
   height: 216px;
   display: inline-block;
   border-radius: 50%;
+}
+
+.details {
+  font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
+  color: #666;
+  font-size: 14pt;
 }
 
 .feature {
