@@ -193,16 +193,16 @@ body {
 }
 
 .direction img {
-  height: 14pt;
+  height: 10pt;
   margin-top: -3pt;
 }
 
 .direction.left img {
-  margin-right: 12pt;
+  margin-right: 6pt;
 }
 
 .direction.right img {
-  margin-left: 12pt;
+  margin-left: 6pt;
 }
 
 .goto-project {
