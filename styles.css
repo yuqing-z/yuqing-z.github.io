@@ -130,7 +130,7 @@ body {
 }
 
 .profile {
-  padding: 40pt 0;
+  margin: 64pt 0;
 }
 
 .profile .avatar {
@@ -145,8 +145,8 @@ body {
 }
 
 .avatar {
-  width: 216px;
-  height: 216px;
+  width: 168px;
+  height: 168px;
   display: inline-block;
   border-radius: 50%;
 }
@@ -155,6 +155,10 @@ body {
   font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #666;
   font-size: 14pt;
+}
+
+.details p {
+  margin: 20pt 0;
 }
 
 .feature {
