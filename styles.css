@@ -29,13 +29,17 @@ body {
 }
 
 .topbar a,
-.topbar a:hover {
+.topbar a:hover,
+.topbar a:active {
   color: #000;
+  text-decoration: none;
 }
 
 .bottombar a,
-.bottombar a:hover {
+.bottombar a:hover,
+.bottombar a:active {
   color: #fff;
+  text-decoration: none;
 }
 
 .vertical-center {
@@ -116,11 +120,17 @@ body {
 
 .email {
   margin-top: 18pt;
+  font-size: 12pt;
 }
 
-.email a,
-.email a:hover {
+.email a {
   color: #216ef9;
+}
+
+.email a:hover,
+.email a:active {
+  color: #216ef9;
+  text-decoration: underline;
 }
 
 .profile {
@@ -132,10 +142,12 @@ body {
 }
 
 .profile a,
-.profile a:hover {
+.profile a:hover,
+.profile a:active {
   font-family: 'Roboto Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #216ef9;
   font-size: 13pt;
+  text-decoration: none;
 }
 
 .avatar {
@@ -205,11 +217,13 @@ body {
 
 .goto-project {
   font-family: 'Roboto Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
-  color: #000;
   font-size: 24pt;
+  color: #000;
+  text-decoration: none;
 }
 
-.goto-project:hover {
+.goto-project:hover,
+.goto-project:active {
   color: #216ef9;
   text-decoration: none;
 }
