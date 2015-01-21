@@ -134,11 +134,22 @@ body {
 }
 
 .profile {
-  margin: 64pt 0;
+  max-width: 41%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile .resume {
+  margin-top: 12pt;
+  margin-bottom: 56pt;
 }
 
 .profile .avatar {
-  margin-bottom: 15pt;
+  margin: 15pt 0;
+}
+
+.profile .intro {
+  font-size: 16pt;
 }
 
 .profile a,
@@ -157,14 +168,25 @@ body {
   border-radius: 50%;
 }
 
+.stroke {
+  width: 33%;
+  height: 1px;
+  background: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56pt;
+  margin-bottom: 24pt;
+}
+
 .details {
   font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #666;
-  font-size: 14pt;
+  font-size: 13pt;
+  margin-bottom: 40pt;
 }
 
 .details p {
-  margin: 20pt 0;
+  margin: 10pt 0;
 }
 
 .feature {
