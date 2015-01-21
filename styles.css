@@ -58,24 +58,18 @@ body {
 }
 
 .intro {
-  font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #666;
-  font-size: 16pt;
-}
-
-.intro hr {
-  width: 20%;
-  margin-top: 20pt;
-  margin-bottom: 20pt;
+  font-size: 13pt;
 }
 
 .logo {
   max-width: 62px;
-  margin-bottom: 12pt;
+  margin-bottom: 10pt;
 }
 
 .works {
-  margin-top: 30pt;
+  margin-top: 40pt;
 }
 
 .works > .row > div {
