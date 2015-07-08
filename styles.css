@@ -13,9 +13,10 @@ body {
 }
 
 .bottombar {
-  color: #fff;
-  background-color: #0a0f15;
-  height: 100pt;
+  color: #666;
+  background-color: #F7F7F7;
+  border-color: #E8E8E8;
+  height: 120pt;
   margin-bottom: 0;
 }
 
@@ -38,7 +39,7 @@ body {
 .bottombar a,
 .bottombar a:hover,
 .bottombar a:active {
-  color: #fff;
+  color: #666;
   text-decoration: none;
 }
 
@@ -134,7 +135,7 @@ body {
 }
 
 .profile {
-  max-width: 41%;
+  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -253,7 +254,7 @@ body {
 .description {
   font-family: 'Roboto Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #2d2d2d;
-  font-size: 13pt;
+  font-size: 12.5pt;
   padding-top: 30pt;
   padding-bottom: 20pt;
 }
