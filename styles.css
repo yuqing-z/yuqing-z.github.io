@@ -141,7 +141,7 @@ body {
 
 .profile .resume {
   margin-top: 12pt;
-  margin-bottom: 56pt;
+  margin-bottom: 12pt;
 }
 
 .profile .avatar {
@@ -157,7 +157,7 @@ body {
 .profile a:active {
   font-family: 'Roboto Condensed', "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #216ef9;
-  font-size: 13pt;
+  font-size: 16pt;
   text-decoration: none;
 }
 
@@ -174,14 +174,14 @@ body {
   background: #ddd;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 56pt;
-  margin-bottom: 24pt;
+  margin-top: 24pt;
+  margin-bottom: 36pt;
 }
 
 .details {
   font-family: "HelveticaNeue-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   color: #666;
-  font-size: 13pt;
+  font-size: 12.5pt;
   margin-bottom: 40pt;
 }
 
@@ -258,9 +258,13 @@ body {
   padding-bottom: 20pt;
 }
 
+.feature:first-child .description {
+  padding-top: 0;
+}
+
 .description h1 {
   font-size: 28pt;
-  padding-bottom: 5pt;
+  padding-bottom: 15pt;
 }
 
 /* vim: set ai sw=2: */
